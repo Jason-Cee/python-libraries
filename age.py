@@ -19,3 +19,21 @@ elif current_month == month_born:
         age += 1
 
 print(age)
+
+# current time
+from datetime import datetime
+now = datetime.now()
+current_time = now.strftime("%H:%M:%S")
+print("Current Time = ", current_time)
+
+
+# Task
+import datetime
+now = datetime.datetime.today()
+print(now.year)
+print(now.month)
+print(now.day)
+print(now.date())
+myDate = now.date()
+for i in range(14, 140, 14):
+    print(myDate)
